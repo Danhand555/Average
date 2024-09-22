@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculation Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>เว็บคำนวนค่าเฉลี่ยต้นทุนการลงทุน</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>วันที่</th>
+                <th>ราคาต่อหน่วย</th>
+                <th>จำนวน</th>
+                <th>ราคารวม</th>
+                <th>มูลค่ารวม</th>
+                <th>จำนวนหน่วยรวม</th>
+                <th>ค่าเฉลี่ยต่อหน่วย</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="date" id="date1"></td>
+                <td><input type="number" id="price1" value="0"></td>
+                <td><input type="number" id="quantity1" value="0"></td>
+                <td><input type="number" id="total1" disabled></td>
+                <td rowspan="5"><input type="number" id="totalValue" disabled></td>
+                <td rowspan="5"><input type="number" id="totalUnits" disabled></td>
+                <td rowspan="5"><input type="number" id="avgCost" disabled></td>
+            </tr>
+            <tr>
+                <td><input type="date" id="date2"></td>
+                <td><input type="number" id="price2" value="0"></td>
+                <td><input type="number" id="quantity2" value="0"></td>
+                <td><input type="number" id="total2" disabled></td>
+            </tr>
+            <tr>
+                <td><input type="date" id="date3"></td>
+                <td><input type="number" id="price3" value="0"></td>
+                <td><input type="number" id="quantity3" value="0"></td>
+                <td><input type="number" id="total3" disabled></td>
+            </tr>
+            <tr>
+                <td><input type="date" id="date4"></td>
+                <td><input type="number" id="price4" value="0"></td>
+                <td><input type="number" id="quantity4" value="0"></td>
+                <td><input type="number" id="total4" disabled></td>
+            </tr>
+            <tr>
+                <td><input type="date" id="date5"></td>
+                <td><input type="number" id="price5" value="0"></td>
+                <td><input type="number" id="quantity5" value="0"></td>
+                <td><input type="number" id="total5" disabled></td>
+            </tr>
+        </tbody>
+    </table>
+    <button class="calculate" onclick="calculate()">Calculate</button>
+    <button class="reset" onclick="reset()">Reset</button>
+    <script src="script.js"></script>
+</body>
+</html>
+
