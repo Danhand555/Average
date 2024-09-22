@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+input[type="number"] {
+  width: 80%;
+  padding: 5px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.calculate {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.reset {
+  background-color: #f44336;
+  color: white;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
